@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trenes>
+
+    <llegada id="1" hora="08:54">
+        <procedencia>Barcelona-Sants</procedencia>
+        <tren>AVE>3052</tren>
+    </llegada>
+    <llegada id="2" hora="09:40">
+        <procedencia>Malaga</procedencia>
+        <tren>AVE 2073</tren>
+        <via>11</via>
+        <observaciones>Sin paradas</observaciones>
+    </llegada>
+
+    <!-- 
+        El documento continua con las distintas llegadas
+        siguiendo el modelo de las llegadas de arriba
+     -->
+</trenes>

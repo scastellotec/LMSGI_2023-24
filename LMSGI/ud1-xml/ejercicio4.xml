@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Primera version - No es correcta
+<equipo>
+    <discoc>
+        <descargas></descargas>
+        <programas>
+            <visulCodeStudio></visulCodeStudio>
+        </programas>
+        <config.cfg></config.cfg>
+    </discoc>
+</equipo>
+-->
+<equipo>
+    <carpeta nombre='c'>
+        <carpeta nombre="descargas"></carpeta>
+        <carpeta nombre="programas">
+            <carpeta nombre="VisualCodeStudio">
+                <archivo nombre="start" extension="exe"/> <!-- Ejemplo de como se podria poner otro atributo -->
+            </carpeta>
+            <archivo nombre="thumbs.db"></archivo>
+        </carpeta>
+        <archivo nombre="config.cfg"></archivo>
+    </carpeta>
+</equipo> 
