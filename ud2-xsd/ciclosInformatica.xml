@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<instituto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ciclosinformatica.xsd">
+    <nombre>IES Pablo Serrano</nombre>
+    <ciudad>Zaragoza</ciudad>
+    <ciclos>
+        <ciclo codigo="inf-301">
+            <nombre>Administración de sistemas informáticos en red</nombre>
+            <grado>Superior</grado>
+            <plan>2009</plan>
+            <comentario>Implantado en curso 2010/2011</comentario>
+        </ciclo>
+        <ciclo codigo="inf-302">
+            <nombre>Desarrollo de aplicaciones multiplataforma</nombre>
+            <grado>Superior</grado>
+            <plan>2009</plan>
+            <comentario>Implantado en curso 2012/2013</comentario>
+        </ciclo>
+        <ciclo codigo="ifc-02">
+            <nombre>Sistemas Microinformáticos y Redes</nombre>
+            <grado>Medio</grado>
+            <plan>2007</plan>
+        </ciclo>
+    </ciclos>
+    <asignaturas>
+        <asignatura codigo="a01" titulacion="inf-301">
+            <nombre>Lenguajes de marcas</nombre>
+            <horas_semanales>3</horas_semanales>
+            <curso numero="1" />
+        </asignatura>
+        <asignatura codigo="a02" titulacion="inf-301">
+            <nombre>Planificación y administración de redes</nombre>
+            <horas_semanales>7</horas_semanales>
+            <curso numero="1" />
+        </asignatura>
+        <asignatura codigo="a03" titulacion="inf-302">
+            <nombre>Programación</nombre>
+            <horas_semanales>7</horas_semanales>
+            <curso numero="1" />
+        </asignatura>
+        <asignatura codigo="a04" titulacion="inf-302">
+            <nombre>Desarrollo de aplicaciones</nombre>
+            <horas_semanales>14</horas_semanales>
+            <curso numero="2" />
+        </asignatura>
+        <asignatura codigo="a05" titulacion="ifc-02">
+            <nombre>Montaje y mantenimiento de equipos</nombre>
+            <horas_semanales>6</horas_semanales>
+            <curso numero="1" />
+        </asignatura>
+        <asignatura codigo="a06" titulacion="inf-302">
+            <nombre>Programación de servicios y procesos</nombre>
+            <horas_semanales>3</horas_semanales>
+            <curso numero="2" />
+        </asignatura>
+        <asignatura codigo="a07" titulacion="ifc-02">
+            <nombre>Sistemas operativos en red</nombre>
+            <horas_semanales>7</horas_semanales>
+            <curso  numero="2"/>
+        </asignatura>
+        <asignatura codigo="a08" titulacion="inf-301">
+            <nombre>Servicios de red e Internet</nombre>
+            <horas_semanales>6</horas_semanales>
+            <curso  numero="2"/>
+        </asignatura>
+    </asignaturas>
+    <alumnos>
+        <alumno codigo="e01">
+            <apellido>Rivas</apellido>
+            <apellido>Santos</apellido>
+            <nombre>Víctor Manuel</nombre>
+            <sexo>Hombre</sexo>
+            <matricula ciclo="inf-301">
+                <asignatura codigo="a01" />
+                <asignatura codigo="a02" />
+                <asignatura codigo="a08" />
+            </matricula>
+        </alumno>
+        <alumno codigo="e02">
+            <apellido>García</apellido>
+            <nombre>Luisa</nombre>
+            <sexo>Mujer</sexo>
+            <matricula ciclo="ifc-02">
+                <proyecto>Web de IBM.com</proyecto>
+            </matricula>
+        </alumno>
+        <alumno codigo="e03">
+            <apellido>Pérez</apellido>
+            <apellido>Romero</apellido>
+            <nombre>Fernando</nombre>
+            <sexo>Hombre</sexo>
+            <matricula ciclo="inf-302">
+                <asignatura codigo="a04" />
+                <asignatura codigo="a06" />
+            </matricula>
+        </alumno>
+        <alumno codigo="e04">
+            <apellido>Avalón</apellido>
+            <apellido>Jiménez</apellido>
+            <nombre>María</nombre>
+            <sexo>Mujer</sexo>
+            <matricula ciclo="inf-301">
+                <asignatura codigo="a08" />
+            </matricula>
+        </alumno>
+    </alumnos>
+</instituto>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aula xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejemplo0.xsd">
+    <alumno num="1">
+        <nombre>José Ramón</nombre>
+        <apellido>García</apellido>
+    </alumno>
+    <alumno num="2">
+        <nombre>Carlos</nombre>
+        <apellido>López</apellido>
+        <apellido>Pérez</apellido>
+    </alumno>
+    <alumno num="3">
+        <nombre>Sara</nombre>
+        <apellido>Martín</apellido>
+    </alumno>
+</aula>

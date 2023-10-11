@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="instituto">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string"></xs:element>
+                <xs:element name="ciudad" type="xs:string"></xs:element>
+                <xs:element name="ciclos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ciclo" minOccurs="1" maxOccurs="4">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="grado" type="xs:string"/>
+                                        <xs:element name="plan" type="xs:string"/>
+                                        <xs:element name="comentario" type="xs:string" minOccurs="0"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="codigo" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="asignaturas">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="asignatura" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="horas_semanales" type="xs:int"/>
+                                        <xs:element name="curso">
+                                            <xs:complexType>
+                                                <xs:attribute name="numero" type="xs:int"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="codigo" type="xs:string"/>
+                                    <xs:attribute name="titulacion" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="alumnos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="alumno" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="apellido" type="xs:string" maxOccurs="2"/>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="sexo" type="xs:string"/>
+                                        <xs:element name="matricula">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="asignatura" minOccurs="0" maxOccurs="8">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="codigo" type="xs:string"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="proyecto" type="xs:string" minOccurs="0"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="ciclo" type="xs:string"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="codigo" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

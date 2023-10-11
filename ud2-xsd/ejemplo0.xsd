@@ -1,0 +1,17 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="aula">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="alumno" minOccurs="1" maxOccurs="33">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="apellido" type="xs:string" minOccurs="1" maxOccurs="2"/>
+                        </xs:sequence>
+                        <xs:attribute name="num" type="xs:int"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<receta>
+    <nombre>Bizcocho de yogur</nombre>
+    <ingredientes>
+        <ingrediente cantidad="1">yogur de limón</ingrediente>
+        <ingrediente cantidad="50" unidades="gr">mantequilla</ingrediente>
+        <ingrediente cantidad="4" unidades="cucharadas">azúcar</ingrediente>
+        <ingrediente cantidad="5" unidades="cucharadas">5 cucharadas de harina</ingrediente>
+        <ingrediente cantidad="3">huevos</ingrediente>
+        <ingrediente cantidad="16" unidades="gr">levadura</ingrediente>
+    </ingredientes>
+    <proceso>
+        <paso orden="1">Batir los huevos</paso>
+        <paso orden="2">Derretir mantequilla</paso>
+        <paso orden="3">Echar el resto de Ingredientes</paso>
+        <paso orden="4">Hornear 20 minutos a 180º</paso>
+    </proceso>
+</receta>
