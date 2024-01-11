@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="productos">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Todos los hijos que tiene este elemento -->
+                <xs:element name="producto" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="nombre">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:maxLength value="24"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="descripcion" minOccurs="0" type="xs:string"></xs:element>
+                            <xs:element name="precio" minOccurs="0">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:int">
+                                        <xs:minInclusive value="0"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:all>
+                        <xs:attribute name="pid" type="xs:ID"></xs:attribute>
+                        <xs:attribute name="finsubasta">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:date">
+                                    <xs:minInclusive value="2018-10-18"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <!-- Todos los atributos que tiene este elemento -->
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

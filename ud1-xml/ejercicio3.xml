@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taller>
+    <!-- Solucion opcion 1 -->
+    <vehiculo tipo="coche">
+        <matricula>5678CRR</matricula>
+        <marca>Peugeot</marca>
+        <modelo>308</modelo>
+        <reparaciones>
+            <reparacion tiempo="40 minutos">Cambio de aceite y filtros</reparacion>
+            <reparacion tiempo="30 minutos">Reparar pinchazo</reparacion>
+        </reparaciones>
+        <factura num="A-1234">
+            <importe moneda="EUR">110</importe>
+            <forma_pago>contado</forma_pago>
+        </factura>
+    </vehiculo>
+    <vehiculo tipo="moto">
+        <matricula>9712-AMZ</matricula>
+        <marca></marca>
+        <modelo></modelo>
+        <reparaciones>
+            <reparacion tiempo="3 días"></reparacion>
+        </reparaciones>
+        <factura num="">
+            <importe moneda=""></importe>
+            <forma_pago></forma_pago>
+        </factura>
+    </vehiculo>
+
+    <!-- Solucion opcion 2 - Planteo el problema que este coche viene cada mes
+         a por una reparación distinta -->
+        <vehiculo tipo="coche">
+        <matricula>5678CRR</matricula>
+        <marca>Peugeot</marca>
+        <modelo>308</modelo>
+        <facturas>
+            <factura num="A-1234">
+                <importe moneda="EUR">110</importe>
+                <forma_pago>contado</forma_pago>>
+                <reparaciones>
+                    <reparacion tiempo="40 minutos">Cambio de aceite y filtros</reparacion>
+                    <reparacion tiempo="30 minutos">Reparar pinchazo</reparacion>
+                </reparaciones>
+            </factura>
+            <factura num="A-1234">
+                <importe moneda="EUR">300</importe>
+                <forma_pago>contado</forma_pago>>
+                <reparaciones>
+                    <reparacion tiempo="50 minutos">Joseba cambio cristales</reparacion>
+                </reparaciones>
+            </factura>
+        </facturas>
+
+    </vehiculo>  
+</taller>

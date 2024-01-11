@@ -1,0 +1,30 @@
+<!-- 
+ Enunciado del ejercicio:
+
+    Tarea 0: Crea un XML de ejemplo (4 Puntos)
+    - Siguiendo la estructura del XML genera tu propio curriculum.
+    - El nombre e email deben de ser veraces.
+    - El resto de la información puede ser real o ficticia, pero siempre usando ejemplos apropiados para el enterno educativo.
+    - Se sugiere poner información en todas los elementos para poder probar la validación.
+ 
+    Tarea 1: Definición de Elementos y Tipos de Datos (5 Puntos)
+    - Vincula tu CV.xml con el XSD que vas a realizar.
+    - Define todos los elementos y atributos de tu XML y vigila que no de errores.
+    - Define el tipo de dato adecuado para cada elemento.
+
+    Tarea 2: Estructura y repeticiones. (4 Puntos)
+    - Todos los elementos mencionados son obligatorios y no se pueden repetir, salvo los esoecificado a continuacion.
+    - La información personal, la educación sean obligatorios. Serán opcinoales experiencia laboral, habilidades e idiomas.
+    - En contacto solo se puede especificar uno: telefono o email. Nunca los dos a la vez.
+    - Se debe tener al menos un titulo educativo, pero puedes repetirlo un numero indefinido de veces.
+    - Se pueden no tener ningun puesto de experiencia laboral o tener varios.
+    - El atributo fecha fin de cada puesto en experiencia laboral es opcional. Fecha de inicio es obligatorio.
+    - Se puede tener entre 0 y varias habilidades
+    - Se pueden tener entre 0 y varios idiomas
+
+    Tarea 3: Validaciones (12 Puntos)
+    - La descripción de un puesto de trabajo no podra exceder de los 128 caracteres.
+    - El valor que puede tener en el grado de una habilidad solo puede tomar los valores: alto, medio y bajo.
+    - El nivel de un idioma será validado mediante una expresión regular. Forma basica solo puntua la mitad.
+
+-->

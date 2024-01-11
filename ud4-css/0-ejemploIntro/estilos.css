@@ -1,0 +1,22 @@
+*{
+    border: 1px solid black;
+}
+
+body{
+    background-color: aqua;
+}
+
+h1{
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h1{
+    background-color: chartreuse;
+}
+
+p{
+    background-color: green;
+    color: white;
+}

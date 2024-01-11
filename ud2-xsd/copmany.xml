@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="copmany.xsd">
+    <companyname>ABCD</companyname>
+    <address>Zaragoza</address>
+    <department name="IT345">
+        <deptemail>IT@abcd.com</deptemail>
+        <employee>
+            <empid>e1</empid>
+            <ename>pulkit</ename>
+            <salary>17200</salary>
+        </employee>
+    </department>
+    <department name="EEE213">
+        <deptemail>EEE@abcd.com</deptemail>
+    </department>
+    <department name="HS012">
+        <deptemail>EEE@abcd.com</deptemail>
+        <employee>
+            <empid>e91</empid>
+            <ename>julia maria</ename>
+            <salary>27500</salary>
+        </employee>
+        <employee>
+            <empid>e3</empid>
+            <ename>andres</ename>
+            <salary>32000</salary>
+        </employee>
+    </department>
+</company>

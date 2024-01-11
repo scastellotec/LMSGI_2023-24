@@ -1,0 +1,71 @@
+.box-one{
+border: 10px solid grey;
+padding-top: 20px;
+padding-left: 10px;
+padding-bottom: 15px;
+background-color: aqua;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.box-two{
+margin-top:30px;
+border: 1px solid red;
+width:200px;
+padding-right: 20px;
+box-sizing: border-box
+}
+
+body{
+margin: 0px;
+}
+/* EXPLICACION PARA CLASE
+(Inspector de codigo e identificar)
+0.  Explicamos que todo son cajas. Elegimos alguna pagina y ponemos 
+        *{border: 1px solid black;}
+1.  Creamos un HTML con dos divs
+        <div class="box-one">One</div>
+        <div class="box-two">Two</div>
+2.  Explicamos los conceptos:
+        - content, padding, border, margin
+3.  Quitamos el padding y margin del body por defecto
+        *{
+            padding: 0;
+            margin: 0;
+            font-size: 40px;
+        }
+4.  Probamos a cambiar el padding de las cajas
+5.  Explicamos la escritura resumida
+6.  Explicamos el border
+7.  Explicamos el margin:
+        ¿Que sucede con los margenes? => margin-collapse
+6.  Utilizamos width y height para modificar el contenido
+        Tamaño real de la caja = content+padding+border
+        Se puede cambiar box-sizing: border-box
+
+*/
+/**{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+.box-one{
+    background-color: lightcoral;
+    border: 0 solid red;
+    padding: 20px;
+    margin: 15px;
+}
+
+.box-two{
+    background-color: lightblue;
+    border: blue;
+    padding: 10px;
+    width: 100px;
+    margin: 0px 20px 0px 30px;
+       // margin-top: 0px;
+       // margin-bottom: 0px;
+       // margin-left: 30px;
+       // margin-right: 20px;
+}
+*/

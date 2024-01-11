@@ -1,0 +1,31 @@
+/* style sheet for the americanLit2.html page */
+
+/* set style for the entire body */
+
+body {
+     font-family: sans-serif;
+     font-size: medium;
+     background-color: white;
+}
+
+/* remove the bold style of the headers */
+
+h1, h2, h3 {
+   font-weight: normal;
+}
+
+/* set different colors for h1 and h3 headers */
+
+h1 {
+   color: maroon;
+}
+
+h3 {
+   color: blue;
+}
+
+/* create a generic optional class to use with any tag */
+
+.optional {
+   color: red;
+}

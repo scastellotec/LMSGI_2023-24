@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fiestaspilar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="conciertos.xsd">
+    <concierto id="">
+        <fechaHora></fechaHora>
+        <ubicacion></ubicacion>
+        <artista></artista>
+        <precio>0</precio>    
+    </concierto>
+    <concierto id="">
+        <artista></artista>
+        <ubicacion></ubicacion>
+        <fechaHora></fechaHora>
+        <precio>0</precio>    
+    </concierto>
+    <concierto id="">
+        <fechaHora></fechaHora>
+        <ubicacion></ubicacion>
+        <artista></artista>
+        <precio>11</precio>    
+    </concierto>
+    <concierto id="">
+        <fechaHora></fechaHora>
+        <ubicacion></ubicacion>
+        <artista></artista>
+        <precio>100</precio>    
+    </concierto>
+    <concierto id="">
+        <fechaHora></fechaHora>
+        <ubicacion></ubicacion>
+        <artista></artista>
+        <precio>5000</precio>    
+    </concierto>
+</fiestaspilar>

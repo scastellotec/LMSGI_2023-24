@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<productos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="demo.xsd">
+    <producto pid="p1" finsubasta="2019-07-10">
+        <nombre>Web Engineering</nombre>
+        <descripcion>This is the description of Web Engineering</descripcion>
+        <precio>15</precio>
+    </producto>
+    <producto pid="p2" finsubasta="2019-06-25">
+        <precio>1</precio>
+        <nombre>The Great Gatsby</nombre>
+    </producto>
+    <producto pid="p3" finsubasta="2019-06-30">
+        <nombre>XML in a Nutshell</nombre>
+        <descripcion>XML in a Nutshell is a great book about XML.</descripcion>
+    </producto>
+    <producto pid="p4" finsubasta="2019-08-15">
+        <nombre>The Simpsons Complete</nombre>
+        <descripcion>Enjoy the classic episodes of The Simpsons with this DVD box set.</descripcion>
+    </producto>
+    <producto pid="p5" finsubasta="2020-05-20">
+        <nombre>PlayStation 5</nombre>
+        <descripcion>The latest gaming console from Sony.</descripcion>
+    </producto>
+</productos>

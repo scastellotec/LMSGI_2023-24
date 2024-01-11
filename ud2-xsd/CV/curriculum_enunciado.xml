@@ -1,0 +1,46 @@
+<curriculum_vitae>
+    <informacion_personal>
+        <nombre>Nombre Apellido</nombre>
+        <contacto>
+            <!-- Solo se podra tener telefono o contacto, nunca las dos a la vez-->
+            <telefono>123-456-7890</telefono>
+            <correo_electronico>correo@example.com</correo_electronico>
+        </contacto>
+    </informacion_personal>
+
+    <educacion>
+        <titulo fecha="Fecha de graduación">
+            <nombre>Nombre del título</nombre>
+            <institucion>Institución educativa</institucion>
+        </titulo>
+        <!-- Puedes agregar más elementos "titulo" si es necesario -->
+    </educacion>
+
+    <experiencia_laboral>
+        <!-- El atributo ffin es opcional, dado que podría ser tu puesto actual-->
+        <puesto finicio="Fecha de inicio" ffin="Fecha de finalización">
+            <titulo>Nombre del puesto</titulo>
+            <empresa>Nombre de la empresa</empresa>
+            <!-- La descripcióin tendra un limite de 128 caracteres -->
+            <descripcion>Descripción de las responsabilidades</descripcion>
+        </puesto>
+        <!-- Puedes agregar más elementos "puesto" si es necesario -->
+    </experiencia_laboral>
+
+    <habilidades>
+        <!-- El grado solo puede ser alto, medio, bajo-->
+        <habilidad grado="Grado de la habilidad">Nombre de habilidad 1</habilidad>
+        <habilidad grado="Grado de la habilidad">Nombre de habilidad 2</habilidad>
+        <!-- Puedes agregar más elementos "habilidad" si es necesario -->
+    </habilidades>
+
+    <idiomas>
+        <!-- El nivel solo puede se validara como una expresión regular donde:
+                version básica: Sera una cadena de texto con una letra seguida de un numero.
+                versión avanzada: Sera una letra mayucula A, B o C, seguida de un numero que será 1 o 2
+        -->
+        <idioma nivel="Nivel de competencia">Nombre del idioma 1</idioma>
+        <idioma nivel="Nivel de competencia">Nombre del idioma 2</idioma>
+        <!-- Puedes agregar más elementos "idioma" si es necesario -->
+    </idiomas>
+</curriculum_vitae>  

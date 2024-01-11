@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura>
+    
+    <!-- Pongo la moneda al principio del documento porque todo el documento
+         estará en la misma moneda, no se pueden mezclar dentro del mismo
+        documento -->
+    <datos_factura num="27" moneda="EUR">
+        <fecha>18/12/2017</fecha>
+        <subtotal>86.12</subtotal>
+        <iva cantidad="21">18.09</iva>
+        <total>104.21</total>
+    </datos_factura>
+    
+    <datos_cliente>
+        <nombre>Biblioteca Pérez</nombre>
+        <cif>333111555A</cif>
+    </datos_cliente>
+
+    <productos>
+        <producto codigo="AW7">
+            <descripcion>Libro analítica Web</descripcion>
+            <precio_unitario>25.12</precio_unitario>
+            <cantidad>1</cantidad>
+            <importe>25.12</importe>
+        </producto>
+        <producto codigo="">
+            <descripcion></descripcion>
+            <precio_unitario></precio_unitario>
+            <cantidad></cantidad>
+            <importe></importe>
+        </producto>
+    </productos>
+
+</factura>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mi primer formulario</h1>
+    <p>Este formulario es de prueba</p>
+
+    <form action="grabar.php" method="POST">
+        <fieldset>
+            <legend>Datos del usuario</legend>
+            <input type="text" id="nombre" name="nombre" placeholder="escribe tu nombre" autofocus><br>
+            <label for="nombre" >Nombre:</label>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required><br>
+
+            </label for="pass">Contrseña:</label>
+            <input type="password" id="pass" name="contra"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Elección del menú</legend>
+            Adicionales:<br>
+            <label for="wifi">wifi</label>
+                <input type="checkbox" id="wifi" name="wifi">
+            <label for="fumador">fumador</label>
+                <input type="checkbox" id="fumador" name="fumador">
+            <label for="cama">cama doble</label>
+                <input type="checkbox" id="cama" name="cama"><br>
+
+            Tipo de menu<br>
+            <label for="o">Onmivoro</label>
+                <input type="radio" id="o" name="tipo" value="1">
+            <label for="v">Vegetariano</label>
+                <input type="radio" id="v" name="tipo" value="2">
+            <label for="ve">Vegano</label>
+                <input type="radio" id="ve" name="tipo" value="3"><br>
+
+            Tipo de bebida<br>
+            <label for="a">Agua</label>
+                <input type="radio" id="a" name="bebida" value="1">
+            <label for="c">Cerveza</label>
+                <input type="radio" id="c" name="bebida" value="2">
+            <label for="vino">Vino</label>
+                <input type="radio" id="vino" name="bebida" value="3"><br>
+
+
+            <label for="npersonas">Cuantos vienen a comer:</label>
+            <select id="npersonas" name="npersonas">
+                <option value="1">Uno</option>
+                <option value="2">Dos</option>
+                <option value="3">Tres</option>
+                <option value="4">Cuatro</option>
+            </select>
+        </fieldset>
+
+
+        <input type="submit"/>
+    </form>
+
+
+</body>
+</html>

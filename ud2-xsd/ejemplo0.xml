@@ -3,14 +3,17 @@
     <alumno num="1">
         <nombre>José Ramón</nombre>
         <apellido>García</apellido>
+        <genero>M</genero>
     </alumno>
     <alumno num="2">
         <nombre>Carlos</nombre>
         <apellido>López</apellido>
         <apellido>Pérez</apellido>
+        <genero>M</genero>
     </alumno>
     <alumno num="3">
         <nombre>Sara</nombre>
         <apellido>Martín</apellido>
+        <genero>F</genero>
     </alumno>
 </aula>
